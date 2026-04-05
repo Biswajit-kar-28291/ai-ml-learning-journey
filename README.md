@@ -94,4 +94,3 @@ Student Marks Prediction
 Today I learned how to train a machine learning model and make predictions.
 
 
-
