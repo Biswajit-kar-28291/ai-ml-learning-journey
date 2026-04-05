@@ -113,5 +113,26 @@ Student Marks Prediction (Improved)
 ## Learning
 Today I learned how to evaluate a machine learning model and check its performance.
 
+# Day 7 - Multi Feature Machine Learning
+
+## What I did today
+- Used multiple input features
+- Trained advanced ML model
+- Predicted output using multiple factors
+- Evaluated model using R2 score
+
+## Project
+Student Performance Predictor
+
+## Skills Used
+- Python
+- Pandas
+- Scikit-learn
+- Machine Learning
+
+## Learning
+Today I learned how real-world ML models use multiple features for better predictions.
+
+
 
 
