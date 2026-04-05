@@ -93,4 +93,25 @@ Student Marks Prediction
 ## Learning
 Today I learned how to train a machine learning model and make predictions.
 
+# Day 6 - ML Model Evaluation
+
+## What I did today
+- Learned train/test split
+- Trained model on training data
+- Tested model on unseen data
+- Calculated R2 score
+
+## Project
+Student Marks Prediction (Improved)
+
+## Skills Used
+- Python
+- Pandas
+- Scikit-learn
+- Machine Learning
+
+## Learning
+Today I learned how to evaluate a machine learning model and check its performance.
+
+
 
