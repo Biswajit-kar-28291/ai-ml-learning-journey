@@ -134,6 +134,34 @@ Student Performance Predictor
 ## Learning
 Today I learned how real-world ML models use multiple features for better predictions.
 
+Day8-# Student Performance Predictor Dashboard
+
+## Project Description
+This project uses Machine Learning to predict student marks based on study hours, attendance, and sleep.
+
+## Features
+- Data analysis using Pandas
+- Machine Learning model using Linear Regression
+- Prediction of student performance
+- Visualization using Matplotlib
+- Export results to CSV
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+## How to Run
+pip install pandas matplotlib scikit-learn  
+python main.py
+
+## Learning
+- Multi-feature ML model
+- Model evaluation (R2 score)
+- Data visualization
+
+
 
 
 
