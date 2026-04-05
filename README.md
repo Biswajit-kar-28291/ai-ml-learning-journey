@@ -53,4 +53,45 @@ Advanced Employee Salary Analyzer
 ## Learning
 Today I learned how to clean and filter real-world data which is important for ML and data analysis.
 
+# Day 4 - Data Visualization
+
+## What I did today
+- Learned Matplotlib basics
+- Created line, bar, histogram, and pie charts
+- Visualized salary data
+- Saved graphs as images
+
+## Project
+Salary Data Visualization using Python
+
+## Skills Used
+- Python
+- Pandas
+- Matplotlib
+- Data Visualization
+
+## Learning
+Today I learned how to convert data into visual graphs to better understand trends and insights.
+
+# Day 5 - Machine Learning (Linear Regression)
+
+## What I did today
+- Learned basics of Machine Learning
+- Built first ML model using Linear Regression
+- Trained model on dataset
+- Predicted marks based on study hours
+
+## Project
+Student Marks Prediction
+
+## Skills Used
+- Python
+- Pandas
+- Scikit-learn
+- Machine Learning
+
+## Learning
+Today I learned how to train a machine learning model and make predictions.
+
+
 
