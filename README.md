@@ -13,6 +13,7 @@ Day 1 Python Practice:
 - Added pass/fail logic
 - Found top student
 - Counted pass/fail students
+- 
 
 ## Project
 Student Performance Analyzer using Python and Pandas
