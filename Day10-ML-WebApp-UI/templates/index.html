@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Predictor</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            border-radius: 15px;
+        }
+
+        .form-control {
+            border-radius: 10px;
+        }
+
+        .btn {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-lg p-4">
+                
+                <h3 class="text-center mb-4">📊 Student Marks Predictor</h3>
+
+                <form method="POST">
+
+                    <div class="mb-3">
+                        <label class="form-label">📚 Study Hours</label>
+                        <input type="number" step="0.1" class="form-control" name="sh" placeholder="Enter study hours" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">🏫 Attendance (%)</label>
+                        <input type="number" class="form-control" name="at" placeholder="Enter attendance" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">😴 Sleep Hours</label>
+                        <input type="number" step="0.1" class="form-control" name="slh" placeholder="Enter sleep hours" required>
+                    </div>
+
+                    <div class="d-grid">
+                        <button class="btn btn-primary btn-lg">Predict Marks</button>
+                    </div>
+
+                </form>
+
+                <!-- Error Message -->
+                {% if error %}
+                    <div class="alert alert-danger mt-3 text-center">
+                        {{ error }}
+                    </div>
+                {% endif %}
+
+                <!-- Result -->
+                {% if r is not none %}
+                    <div class="alert alert-success mt-3 text-center">
+                        🎯 Predicted Marks: <strong>{{ r }}</strong>
+                    </div>
+                {% endif %}
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
