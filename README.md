@@ -178,5 +178,38 @@ python main.py
 ## Learning
 Built ML model and integrated it into a web application.
 
+# Day 10 - Student Performance Predictor Web App UI
+
+## What I did today
+- Improved ML web app UI
+- Added CSS styling
+- Added input validation
+- Added error handling
+- Improved result display
+
+## Project
+Student Performance Predictor Web App
+
+## Skills Used
+- Python
+- Flask
+- HTML
+- CSS
+- Pandas
+- Scikit-learn
+
+## Files
+- app.py
+- model.py
+- student_data.csv
+- templates/index.html
+- static/style.css
+
+## Output
+A web app that takes study hours, attendance, and sleep hours as input and predicts student marks.
+
+## Learning
+Today I learned how to improve the frontend and structure of an ML web app and make it more professional.
+
 
 
