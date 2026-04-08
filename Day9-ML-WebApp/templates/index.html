@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Predictor</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+<form class="row g-3"  method="POST">
+
+  <div class="col-md-4">
+    <label class="form-label">Study Hour</label>
+    <input type="number" class="form-control" name="sh" required>
+  </div>
+
+  <div class="col-md-4">
+    <label class="form-label">Sleep Hour</label>
+    <input type="number" class="form-control" name="slh" required>
+  </div>
+
+  <div class="col-md-4">
+    <label class="form-label">Attendance</label>
+    <input type="number" class="form-control" name="at" required>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Predict</button>
+  </div>
+
+  <div class="col-12">
+    <h2>Result:{{r}}</h2>
+  </div>
+
+</form>
+
+</body>
+</html>
