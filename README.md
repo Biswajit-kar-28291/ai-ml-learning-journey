@@ -162,6 +162,21 @@ python main.py
 - Data visualization
 
 
+# Student Performance Predictor Web App
+
+## Features
+- Predict student marks using ML
+- User input form
+- Real-time prediction
+
+## Tech Used
+- Python
+- Flask
+- Scikit-learn
+- HTML
+
+## Learning
+Built ML model and integrated it into a web application.
 
 
 
